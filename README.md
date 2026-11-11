@@ -1,10 +1,7 @@
-# ssh
+# alu-system_engineering-devops
 
-This project is about connecting to a server with ssh keys.
+My work for the system engineering and devops projects.
 
-Files:
-- 0-use_a_private_key : connects to my server with the private key ~/.ssh/school
-- 1-create_ssh_key_pair : creates an RSA key pair named school (4096 bits, passphrase betty)
-- 2-ssh_config : ssh client config that uses the school key and refuses password login
-
-Note: in 0-use_a_private_key, replace YOUR_SERVER_IP with the IP of the server.
+Folders:
+- ssh : ssh keys and the ssh client config
+- web_server : scp, nginx, redirection and the 404 page
