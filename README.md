@@ -9,3 +9,4 @@ Folders:
 - firewall : ufw rules and port forwarding
 - web_stack_debugging_0 : fixing apache in a docker container
 - web_stack_debugging_1 : fixing nginx so it listens on port 80
+- web_stack_debugging_2 : running commands and nginx as another user
