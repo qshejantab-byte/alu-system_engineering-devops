@@ -5,6 +5,7 @@ listening on port 80, so I found the problem and wrote a script to fix it.
 
 Files:
 - 0-nginx_likes_port_80 : makes nginx run and listen on port 80
+- 1-debugging_made_short : same fix in 5 lines, and service says nginx is not running
 
 Run it inside the container as root: ./0-nginx_likes_port_80
 Then test with: curl 0:80
